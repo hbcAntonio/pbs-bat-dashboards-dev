@@ -3,7 +3,6 @@ SELECT
 	roles.name as role,
 	hoursWeek as hours,
 	users.email,
-	users.active,
 	users.deactivatedAt,
 	users.createdAt
 FROM users

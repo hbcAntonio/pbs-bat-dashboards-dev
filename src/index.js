@@ -27,7 +27,7 @@ var auth = function (req, res, next) {
 
 server.get('/getActiveUsers', auth, (req, res) => {
 	var fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
-	console.log('received request', req.method, fullUrl);// ,'\n with auth', req.headers.authorization);
+	console.log(req.method, fullUrl);// ,'\n with auth', req.headers.authorization);
 
 	user.list(req.query.month, (results) => {
 		//console.log(JSON.stringify(results, null, 2));
