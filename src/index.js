@@ -1,5 +1,6 @@
 var express = require('express');
 var basicAuth = require('basic-auth');
+require('dotenv').config();
 
 var mysql = require('./db');
 var user = require('./user_actions');
