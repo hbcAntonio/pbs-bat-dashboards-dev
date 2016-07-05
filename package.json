@@ -1,0 +1,19 @@
+{
+  "name": "localtunnel_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js && echo \"Application started\""
+  },
+  "author": "Antonio Cordeiro",
+  "license": "ISC",
+  "dependencies": {
+    "basic-auth": "^1.0.4",
+    "express": "^4.14.0",
+    "moment": "^2.14.1",
+    "mysql": "^2.11.1",
+    "twix": "^1.1.0"
+  }
+}
